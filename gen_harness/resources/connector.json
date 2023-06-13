@@ -1,0 +1,21 @@
+{
+    "connector": {
+          "name": "testsum-k8s-api-generated",
+          "identifier": "testsumk8sapigenerated",
+          "description": "",
+          "orgIdentifier": "default",
+          "projectIdentifier": "testsum",
+          "tags": {},
+          "type": "K8sCluster",
+          "spec": {
+            "connectorType": "KubernetesClusterConfig",
+            "credential": {
+              "type": "InheritFromDelegate",
+              "spec": null
+            },
+            "delegateSelectors": [
+              "kubernetes-delegate"
+            ]
+          }
+    }
+  }
