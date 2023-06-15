@@ -1,5 +1,4 @@
 import os
-import gen_harness.create_connector
 from gen_harness.create_connector import HarnessConnector
 
 base_url = os.getenv('HARNESS_BASE_URL')

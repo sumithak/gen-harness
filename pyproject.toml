@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["sumitha <sumitha.kurien@gmail.com>"]
 readme = "README.md"
-packages = [{include = "gen_harness"}]
 
 [tool.poetry.dependencies]
 python = "3.11.4"
@@ -16,3 +15,6 @@ pytest = "^7.3.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+main = "gen_harness.create_connector:main"
