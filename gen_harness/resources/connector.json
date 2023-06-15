@@ -1,7 +1,7 @@
 {
     "connector": {
-          "name": "testsum-k8s-api-generated-1406",
-          "identifier": "testsumk8sapigenerated-1406",
+          "name": "testsum-k8s-api-generated",
+          "identifier": "testsumk8sapigenerated",
           "description": "",
           "orgIdentifier": "default",
           "projectIdentifier": "testsum",
